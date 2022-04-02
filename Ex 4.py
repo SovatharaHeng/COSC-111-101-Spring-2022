@@ -16,3 +16,20 @@ def chunking_by(array,chunk):
         new_array.append(lil_chunk)    
     return new_array
 print (chunking_by([5, 4, 7, 3, 4, 5, 4], 3))
+
+def chunking_by(lst, size):
+    big_list = []
+    chunk = []
+    i = 0
+    while i < len(lst):
+        chunk.append(lst[i])
+        i += 1
+        if i % size == 0:
+            big_list.append(chunk)
+            chunk = []
+    if chunk:
+        big_list.append(chunk)
+    return big_list
+
+
+print(chunking_by([3, 4, 5], 1))
