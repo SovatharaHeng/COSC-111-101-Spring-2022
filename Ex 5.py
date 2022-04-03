@@ -1,3 +1,4 @@
+print("In a given string you should reverse every word, but the words should stay in their places.") 
 def backward_string_by_word(strings):
     lil_chunk=[]
     encryption=""
