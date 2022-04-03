@@ -5,5 +5,6 @@ def remove_all_after(numbers, border):
     return numbers
 
 print(remove_all_after([1, 2, 3, 4, 5], 3))
-            
+
+print(-----------------------------------)
                    
