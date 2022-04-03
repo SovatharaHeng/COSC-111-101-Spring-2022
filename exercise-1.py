@@ -3,3 +3,5 @@ def replace_last(array):
     return new_array
 
 print(replace_last([2, 3, 4, 1]))
+
+print(-----------------------------------)
